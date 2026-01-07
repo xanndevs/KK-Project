@@ -1,0 +1,85 @@
+##################################
+# Node.js
+##################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+##################################
+# Environment variables
+##################################
+.env
+.env.local
+.env.*.local
+
+##################################
+# Build / Distribution
+##################################
+dist/
+build/
+www/
+out/
+tmp/
+temp/
+
+##################################
+# Ionic / Capacitor / Cordova
+##################################
+.ionic/
+.ionic-cache/
+.ionic.config.json
+
+# Capacitor
+android/
+ios/
+capacitor.config.ts
+
+# Cordova
+platforms/
+plugins/
+
+##################################
+# Framework-specific
+##################################
+# Angular
+.angular/
+.angular-cache/
+
+# React
+.cache/
+
+# Vue
+.vite/
+
+##################################
+# Logs
+##################################
+logs/
+*.log
+
+##################################
+# OS / Editor files
+##################################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+##################################
+# Testing / Coverage
+##################################
+coverage/
+.nyc_output/
+
+##################################
+# Misc
+##################################
+*.tgz
+*.zip
